@@ -41,7 +41,7 @@ public class GoogleSearchSteps {
         assertThat(googlePage.pageTitleContains(phrase)).isTrue();
     }
 
-    @After
+    @After(value = "@web")
     public void disposeWebDriver() throws Throwable {
         driver.quit();
     }
