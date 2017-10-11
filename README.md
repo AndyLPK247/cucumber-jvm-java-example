@@ -6,6 +6,9 @@ It contains a simple behavior scenario that performs a basic Google search.
 This project was developed by [Automation Panda](https://www.automationpanda.com/)
 to demonstrate how to use Cucumber-JVM as a BDD test framework.
 
+### Version
+This project uses Cucumber-JVM 1.2.5 because 2.0 is not yet supported in IntelliJ IDEA.
+
 ### Web Driver Setup
 This project uses Selenium WebDriver to interact with the Chrome web browser.
 In order for the tests to work, [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/)
